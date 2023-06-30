@@ -1,2 +1,1 @@
-# Bagery
-Margaretas bröd och bakverk
+# Margaretas bröd och bakverk
