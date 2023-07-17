@@ -1,111 +1,137 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f3e8d7;
+}
+
+h2 {
+  margin-top: 2.5%;
+}
   
-  #container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
+#container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  }
-  
-  header {
-    text-align: center;
-  }
-  
-  nav {
-    margin-bottom: 20px;
-  }
-  
-  aside {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 20px;
-  }
-  
-  .opening-hours {
-    background-color: #f9f9f9;
-    padding: 10px;
-    flex: 1;
-  }
+header{
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
-  h4{
-    font-size: 30px;
-  }
+header img{
+  max-width: 100%;
+  height: auto;
+}
 
-  .nummer-1 h2{
-    font-size: 40px;
-  }
+nav {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Garamond cursive;
+  color: #5bb7b0;
 
-  .nummer-1 p{
-    font-size: 20px;
-  }
-  
-  .nummer-2 {
-    flex: 1;
-    margin-left: 20px;
-    background-color: #f9f9f9;
-  }
+}
 
-  .nummer-2 h2{
-    font-size: 40px;
-  }
+aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
 
-  .nummer-2 p{
-    font-size: 20px;
-    transform: translateY(-25px);
-    margin: 10px;
-  }
+.nummer-1 img{
+  width: 250px;
+  height: auto;
+  margin: 30px
+}
 
-  .nummer-3 {
-    flex: 1;
-    margin-left: 20px;
-    background-color: #f9f9f9;
-  }
+.nummer-1 h2{
+  font-size: 36px;
+  text-align: center;
+  color: #5bb7b0;
+  margin: 0;
+  height: auto;
+}
 
-  footer {
-    display: inline-block;
-    text-align: center;
-    margin-top: 100px;
-    margin: 200px;
-    margin-top: 20px;
-  }
+.nummer-1 p{
+  font-size: 18px;
+}
 
-  footer.contact-section1 {
-    margin-top: 20px;
-    position: absolute;
-    top: 150%;
-    right: 1%;
-  }
+.opening-hours {
+  background-color: #f9f9f9;
+  padding: 10px;
+  flex: 1;
+}
 
-  footer.contact-section1 h3{
-    font-size: 30px;
-  }
+.nummer-2 {
+  flex: 1;
+  margin-left: 20px;
+  background-color: #f9f9f9;
+  height: auto;
+}
 
-  footer.contact-section2 {
-    margin-top: 35px;
-    position: absolute;
-    top: 150%;
-    left: 1%;
-    background-color: #f9f9f9;
-  }
+.nummer-2 h2{
+  font-size: 36px;
+  text-align: center;
+  color: #5bb7b0;
+  margin: 10px;
+}
 
-  footer.contact-section2 h3{
-    font-size: 30px;
-  }
+.nummer-2 img{
+  width: 250px;
+  height: auto;
+  margin: 30px;
+}
 
-  
-  /* Additional styling */
-  h2 {
-    margin-top: 2.5%;
-  }
+.nummer-2 p{
+  font-size: 18px;
+  transform: translateY(-25px);
+  margin-top: 10px;
+  margin: 10px;
+}
+
+
+.nummer-3 {
+  flex: 1;
+  margin-left: 20px;
+  background-color: #f9f9f9;
+  height: auto;
+}
+
+.sortiment-heading{
+  text-align: center;
+  font-size: 36px;
+  color: #5bb7b0;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product img {
+  width: 250px;
+  height: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.product p {
+  margin: 10px;
+  padding: 4px;
+  text-align:start;
+  font-size: 18px;
+}
 
 .body2{
   display: flex;
@@ -157,7 +183,6 @@ body {
 
 .wrapper .carousel{
   font-size: 0px;
-  cursor: pointer;
   overflow: hidden;
   white-space: nowrap;
   scroll-behavior: smooth;
@@ -184,7 +209,80 @@ body {
   margin-left: 0px;
 }
 
+footer {
+  display: inline-block;
+  text-align: center;
+  margin-top: 100px;
+  margin: 150px;
+  background-color: #f9f9f9;
+  height: 375px;
+}
 
+.contact-section1 {
+  position: absolute;
+  top: 172%;
+  right: 1%;
+}
+
+.contact-section1 h3{
+  font-size: 36px;
+  margin-top: 10px;
+  color: #5bb7b0;
+}
+
+iframe{
+  transform: translateY(-10%);
+  width: 320px;
+  height: 300px;
+  margin: 10px;
+}
+
+.contact-section2 {
+  position: absolute;
+  top: 172%;
+  left: 1%;
+}
+
+.contact-section2 h3{
+  font-size: 36px;
+  margin-top: 10px;
+  color: #5bb7b0;
+}
+
+.contact-section2 p{
+  font-size: 18px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.fa-instagram{
+  color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.fa-facebook{
+  color: #3b5998 #5a6589 #70717a #817d6a #8f8b59 #9c9845 #a8a62b;
+}
+
+.fa-information{
+  color: #3b5998 #5a6589 #70717a #817d6a #8f8b59 #9c9845 #a8a62b;
+}
+
+article img{
+  width: 100%;
+  height: auto;
+}
+
+/*Media querie*/
 @media screen and (max-width: 900px) {
   .carousel img{
     width: calc(100% / 2);
@@ -192,14 +290,20 @@ body {
   }
 }
 
+/*_____________________________________________________________________________________________________________*/
 
 @media screen and (max-width: 550px) {
   .carousel img{
     width: 100%;
-    height: auto;
-  }  
+    height: 300px;
+  }
+
+  .nummer-1{
+    margin-right: 20px;
+  }
 }
 
+/*_____________________________________________________________________________________________________________*/
 
 @media screen and (max-width: 600px) {
 
@@ -218,12 +322,24 @@ body {
     margin-top: 0;
   }
 
-  footer.contact-section1,
-  footer.contact-section2 {
+  .contact-section1,
+  .contact-section2 {
     position: static;
     top: auto;
     left: auto;
     margin-top: 20px;
+  }
+
+  .contact-section1{
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-section2{
+    margin: 50px;
+    padding: 0;
+    width: 100%;
+    transform: translateY(-48%);
   }
 
   .body2 {
@@ -245,19 +361,59 @@ body {
   .wrapper i:last-child {
     right: 10px;
   }
-
-  .carousel img {
-    height: auto;
-    width: 100%;
-    object-fit: contain;
-    margin: 0;
-  }
 }
 
+/*_____________________________________________________________________________________________________________*/
+
 @media screen and (max-width: 550px) {
+
+  footer{
+    margin: 200px;
+  }
+  
+  .contact-section1 iframe{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+
+
+  .nummer-1 h2{
+    font-size: 36px;
+    text-align: center;
+    color: #5bb7b0;
+    margin: 10px;
+    height: auto;
+  }
+
+  .nummer-2 img{
+    width:90%;
+    height: auto;
+    margin: 20px;
+  }
+
+  .nummer-2 h2{
+    font-size: 36px;
+    text-align: center;
+    color: #5bb7b0;
+    margin: 10px;
+  }
+
+  .product img {
+    width: 95%;
+    height: auto;
+    margin: 0px;
+  }
+
+  .nummer-1 img{
+    width: 100%;
+    height: auto;
+    margin: 0; 
+  }
+
   .nummer-3 {
     width: 100%;
-    margin-left: 10px;
+    margin-left: 0px;
   }
 
   .product {
@@ -265,37 +421,10 @@ body {
     align-items: center;
     margin-bottom: 10px;
   }
-
-  .product p {
-    transform: translateX(20%);
-  }
-
-  .product img {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    margin-right: 10px; 
-    transform: translateY(-40%);
-  }
 }
 
-.sortiment {
-  margin-top: 20px;
-  text-align: center;
-}
+/*_____________________________________________________________________________________________________________*/
 
-.sortiment h2 {
-  margin-bottom: 10px;
-}
-
-.sortiment img {
-  width: 200px;
-  margin-bottom: 10px;
-}
-
-.sortiment p {
-  margin-bottom: 20px;
-}
 
 @media screen and (max-width: 600px) {
   aside {
@@ -317,24 +446,13 @@ body {
   }
   
   .sortiment-heading{
-    font-size: 40px;
+    font-size: 36px;
     text-align: center;
   }
-}
 
+  article img{
+    width: 100%;
+    height: auto;
+  }
 
-.product img{
-  margin: 10px;
-  height: 100px;
-  width: auto;
-  transform: translateX(50%);
-}
-
-.product p {
-  text-align: center; /* Centrera texten horisontellt */
-}
-
-.sortiment-heading{
-  text-align: center;
-  font-size: 40px;
 }
